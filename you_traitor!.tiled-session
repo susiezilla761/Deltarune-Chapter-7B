@@ -1,0 +1,39 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "scripts/world",
+        "scripts/world/maps"
+    ],
+    "fileStates": {
+        "scripts/world/maps/room1.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1145.4545454545455,
+                "y": 696.969696969697
+            }
+        },
+        "scripts/world/maps/room2.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -164,
+                "y": 626
+            }
+        },
+        "scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.worldFilePath": "D:/Projects/Kristal/mod_template/scripts/world/maps",
+    "loadedWorlds": [
+        "D:/Projects/Kristal/mod_template/scripts/world/maps/example.world"
+    ],
+    "openFiles": [
+    ],
+    "project": "modid.tiled-project",
+    "recentFiles": [
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/maps/room2.tmx"
+    ]
+}

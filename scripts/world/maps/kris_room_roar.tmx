@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="31">
+ <editorsettings>
+  <export target="../tilesets/kris_room_roar.lua" format="lua"/>
+ </editorsettings>
+ <imagelayer id="4" name="Image Layer 1">
+  <image source="../../../assets/sprites/tilesets/Kris_room_roar.png" width="640" height="480"/>
+ </imagelayer>
+ <objectgroup color="#0055ff" id="5" name="collision">
+  <object id="1" x="80" y="160" width="480" height="40"/>
+  <object id="2" x="40" y="200" width="40" height="200"/>
+  <object id="3" x="80" y="400" width="210.004" height="80"/>
+  <object id="4" x="369.999" y="400" width="190.001" height="80"/>
+  <object id="5" x="560" y="200" width="40" height="200"/>
+  <object id="23" x="80" y="360" width="120" height="40"/>
+  <object id="26" x="80" y="200" width="100.043" height="120"/>
+  <object id="28" x="184" y="200" width="96" height="40"/>
+  <object id="29" x="371" y="200" width="94" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="6" name="markers">
+  <object id="24" name="interactable" type="interactable" x="80" y="360" width="120" height="40">
+   <properties>
+    <property name="text">* You have no time for these
+right now</property>
+   </properties>
+  </object>
+  <object id="30" name="interactable" type="interactable" x="465.333" y="200" width="94.6667" height="120">
+   <properties>
+    <property name="text" value="* There's no time to sleep"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

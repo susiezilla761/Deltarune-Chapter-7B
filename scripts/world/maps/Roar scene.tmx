@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="17" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="26" nextobjectid="47">
+ <editorsettings>
+  <export target="Roar scene.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="../tilesets/Roaring Tiles.tsx"/>
+ <tileset firstgid="601" source="../tilesets/roar background.tsx"/>
+ <tileset firstgid="762" source="../tilesets/roar background tiny.tsx"/>
+ <imagelayer id="25" name="Image Layer 2" offsetx="-12" offsety="0">
+  <image source="../../../assets/sprites/tilesets/Roarsky.png" width="706" height="482"/>
+ </imagelayer>
+ <imagelayer id="18" name="Image Layer 1" offsetx="-16" offsety="4" parallaxx="1.02">
+  <image source="../../../assets/sprites/tilesets/Roar scene.png" width="705" height="481"/>
+ </imagelayer>
+ <layer id="1" name="Tile Layer 1" width="17" height="12">
+  <data encoding="csv">
+419,419,382,383,384,419,419,382,383,384,419,419,382,383,384,419,419,
+419,419,388,389,390,419,419,388,389,390,419,419,388,389,390,419,419,
+419,419,394,395,396,419,419,394,395,396,419,419,394,395,396,419,419,
+419,419,400,401,402,419,419,400,401,402,419,419,400,401,402,419,419,
+419,419,400,401,402,419,419,400,401,402,419,419,400,401,402,419,419,
+419,419,412,413,414,419,419,412,413,414,419,419,412,413,414,419,419,
+452,452,452,452,452,452,452,452,452,452,452,452,452,452,452,452,452,
+456,456,456,456,456,456,456,456,456,456,456,456,456,456,456,456,456,
+453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,453,
+573,573,573,573,573,573,573,573,573,573,573,573,573,573,573,573,573,
+121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,
+121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121
+</data>
+ </layer>
+ <objectgroup color="#0055ff" id="23" name="collision" parallaxx="1.05">
+  <object id="43" x="-40" y="320" width="120" height="40"/>
+  <object id="44" x="200" y="320" width="120" height="40"/>
+  <object id="45" x="440" y="320" width="120" height="40"/>
+ </objectgroup>
+ <objectgroup color="#aa00ff" id="6" name="Markers" class="markers">
+  <object id="2" name="spawn" x="120" y="280">
+   <point/>
+  </object>
+  <object id="23" name="room_center" x="360" y="280">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#0055ff" id="7" name="collision">
+  <object id="16" x="0" y="200" width="680" height="40"/>
+  <object id="17" x="0" y="360" width="680" height="40"/>
+ </objectgroup>
+ <objectgroup id="19" name="Object layer" class="objects"/>
+ <layer id="3" name="Tile Layer 2" width="17" height="12" offsetx="1" offsety="1" parallaxx="1.5">
+  <data encoding="csv">
+182,183,0,0,0,181,182,183,0,0,0,181,182,183,0,0,0,
+188,189,0,0,0,187,188,189,0,0,0,187,188,189,0,0,0,
+333,54,0,0,0,53,333,54,0,0,0,53,333,54,0,0,0,
+333,54,0,0,0,53,333,54,0,0,0,53,333,54,0,0,0,
+333,54,0,0,0,53,333,54,0,0,0,53,333,54,0,0,0,
+333,54,0,0,0,53,333,54,0,0,0,53,333,54,0,0,0,
+333,54,0,0,0,53,333,54,0,0,0,53,333,54,0,0,0,
+194,195,0,0,0,193,194,195,0,0,0,193,194,195,0,0,0,
+200,201,0,0,0,199,200,201,0,0,0,199,200,201,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
